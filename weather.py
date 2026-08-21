@@ -1,3 +1,4 @@
+"""
 INFO 465 - Day 1 starter script
 
 This makes one request to the Open-Meteo weather API and prints part of
@@ -11,7 +12,7 @@ tonight instead of your project's real API.
 
 import requests
 
-Richmond, VA -- change these to your own hometown later and re-run.
+# Richmond, VA -- change these to your own hometown later and re-run.
 LATITUDE = 37
 LONGITUDE = -77
 
@@ -38,4 +39,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
